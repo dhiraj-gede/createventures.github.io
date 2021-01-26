@@ -1,0 +1,14 @@
+body {
+    z-index: 0;
+}
+
+#mainNavbar .navbar-brand img {
+    width: 60px;
+    height: 40px;
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.5rem;
+    color: rgba(229, 255, 0, 0.582);
+    font-weight: 100;
+}
