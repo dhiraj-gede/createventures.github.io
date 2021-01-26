@@ -1,5 +1,5 @@
 body {
-    z-index: 0;
+    z-index: 1;
 }
 
 #mainNavbar .navbar-brand img {
@@ -11,4 +11,9 @@ body {
     font-size: 1.5rem;
     color: rgba(229, 255, 0, 0.582);
     font-weight: 100;
+}
+
+.main {
+    text-align: center;
+    color: white;
 }
