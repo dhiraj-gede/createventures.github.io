@@ -286,7 +286,13 @@ input.sp-selector-5:checked~.sp-content .sp-slider>li:nth-child(5) {
     text-align: center;
 }
 
-.Video {
+.Pre-Video {
     display: flex;
     color: rgb(255, 255, 255);
+}
+
+Video {
+    padding-top: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
