@@ -19,12 +19,34 @@ header {
     font-weight: 100;
 }
 
+.animation-slide-in {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: 0%;
+    }
+    50% {
+        margin-left: 300px;
+    }
+    100% {
+        margin-left: 0%;
+    }
+}
+
 #heading {
     background-color: rgb(33, 56, 56);
 }
 
+.top-wrapper h1 {
+    color: rgba(229, 255, 0, 0.582)
+}
+
 .top-wrapper {
-    padding: 10px 0 10px 0;
+    padding: 8px 0 8px 0;
     background-color: rgba(34, 49, 52, 0.9);
     color: turquoise;
     text-align: center;
@@ -295,4 +317,9 @@ Video {
     padding-top: 30px;
     margin-left: 30%;
     margin-right: 30%;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
 }
